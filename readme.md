@@ -20,8 +20,16 @@ Built with FastAPI for speed and simplicity.
 
 ## Quick Start
 ```bash
-git clone <your-repo>
-cd smart-task-recommender
+# Clone the repository
+git clone https://github.com/BezaleelPaul/Smart-Task-Recommender.git
+
+# Move into the project directory
+cd Smart-Task-Recommender
+
+# Install dependencies
 pip install -r requirements.txt
 
+# Run the FastAPI server
 uvicorn app.main:app --reload
+
+
